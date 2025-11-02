@@ -1,0 +1,55 @@
+import { Beaker } from 'lucide-react';
+
+export default function Footer() {
+  return (
+    <footer 
+      className="border-t border-border py-12 px-6"
+      data-testid="footer-main"
+    >
+      <div className="max-w-6xl mx-auto">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
+          <div className="flex items-center gap-3">
+            <Beaker className="w-6 h-6 text-primary" />
+            <span className="font-heading font-semibold text-lg">
+              Experimento de Densidade
+            </span>
+          </div>
+          
+          <div className="text-center md:text-right">
+            <p className="text-sm text-muted-foreground">
+              Feira de Ciências 2024
+            </p>
+          </div>
+        </div>
+
+        <div className="border-t border-border pt-8">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="font-heading font-semibold mb-3">Equipe</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Desenvolvido por estudantes do 9º ano como parte do projeto de Ciências.
+                Orientação: Prof. Maria Santos
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="font-heading font-semibold mb-3">Recursos Adicionais</h3>
+              <ul className="text-sm text-muted-foreground space-y-2">
+                <li>• Manual completo do experimento</li>
+                <li>• Vídeos demonstrativos</li>
+                <li>• Referências científicas</li>
+                <li>• Materiais para download</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-border mt-8 pt-6 text-center">
+          <p className="text-sm text-muted-foreground">
+            © 2024 Experimento de Densidade. Desenvolvido para fins educacionais.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
