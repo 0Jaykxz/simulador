@@ -1,28 +1,28 @@
 import { Card } from '@/components/ui/card';
 import { Target, FlaskConical, ClipboardList, Lightbulb } from 'lucide-react';
-import materialsImage from '@assets/generated_images/Experiment_materials_and_supplies_f083994c.png';
+import materialsImage from '@assets/generated_images/Primitive_Earth_experiment_materials_9b288385.png';
 
 export default function ExperimentSection() {
   const steps = [
     {
       number: 1,
-      title: 'Prepare os líquidos',
-      description: 'Separe mel, detergente líquido, água, óleo vegetal e álcool. Adicione corante alimentício em cada um.'
+      title: 'Prepare o recipiente',
+      description: 'Use um frasco de vidro transparente para simular a atmosfera primitiva. Adicione água para representar o oceano primordial.'
     },
     {
       number: 2,
-      title: 'Despeje cuidadosamente',
-      description: 'Comece com o líquido mais denso (mel) e adicione os outros em ordem decrescente de densidade.'
+      title: 'Adicione os gases',
+      description: 'Introduza gases como metano (CH₄), amônia (NH₃) e vapor d\'água, simulando a atmosfera sem oxigênio.'
     },
     {
       number: 3,
-      title: 'Observe as camadas',
-      description: 'Note como cada líquido permanece em sua própria camada, criando uma torre colorida.'
+      title: 'Simule relâmpagos',
+      description: 'Use eletrodos para criar descargas elétricas, imitando os relâmpagos que forneciam energia na Terra primitiva.'
     },
     {
       number: 4,
-      title: 'Teste com objetos',
-      description: 'Coloque pequenos objetos e veja em qual camada eles param, baseado em sua densidade.'
+      title: 'Observe as reações',
+      description: 'Após algumas horas, observe a formação de compostos orgânicos simples, os blocos fundamentais da vida.'
     }
   ];
 
@@ -37,7 +37,7 @@ export default function ExperimentSection() {
           Como Funciona o Experimento
         </h2>
         <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
-          A densidade é a relação entre massa e volume. Líquidos com diferentes densidades não se misturam e formam camadas distintas.
+          Recriando as condições da Terra há 4 bilhões de anos, quando a atmosfera era tóxica e não havia oxigênio livre.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -49,7 +49,7 @@ export default function ExperimentSection() {
               <div>
                 <h3 className="font-heading font-semibold text-xl mb-2">Objetivo</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Demonstrar visualmente o conceito de densidade através da separação de líquidos com diferentes massas específicas.
+                  Simular a atmosfera redutora da Terra primitiva e demonstrar como moléculas orgânicas simples podem se formar a partir de gases inorgânicos.
                 </p>
               </div>
             </div>
@@ -63,7 +63,7 @@ export default function ExperimentSection() {
               <div>
                 <h3 className="font-heading font-semibold text-xl mb-2">Materiais</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Cilindro de vidro transparente, mel, detergente, água, óleo vegetal, álcool e corantes alimentícios.
+                  Frasco de vidro, água, metano (CH₄), amônia (NH₃), hidrogênio (H₂), eletrodos, fonte de alta voltagem e pedras vulcânicas.
                 </p>
               </div>
             </div>
@@ -108,9 +108,10 @@ export default function ExperimentSection() {
             <div>
               <h3 className="font-heading font-semibold text-xl mb-2">Por que isso acontece?</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Cada líquido tem uma densidade diferente. O mel é mais denso (cerca de 1,4 g/cm³), então afunda. 
-                O álcool é menos denso (0,8 g/cm³), então fica no topo. A gravidade puxa os líquidos mais densos 
-                para baixo, enquanto os menos densos flutuam acima, criando camadas coloridas bem definidas.
+                Na Terra primitiva, não havia oxigênio livre (O₂) na atmosfera. A energia dos relâmpagos e da radiação ultravioleta 
+                quebrava as moléculas simples de metano, amônia e água, permitindo que elas se recombinassem em moléculas orgânicas 
+                mais complexas como aminoácidos. Este experimento, baseado no experimento de Miller-Urey (1953), demonstra como 
+                os blocos fundamentais da vida podem surgir de processos químicos simples.
               </p>
             </div>
           </div>

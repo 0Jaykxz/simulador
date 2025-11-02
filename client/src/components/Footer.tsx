@@ -1,4 +1,4 @@
-import { Beaker } from 'lucide-react';
+import { Globe } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -9,9 +9,9 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
           <div className="flex items-center gap-3">
-            <Beaker className="w-6 h-6 text-primary" />
+            <Globe className="w-6 h-6 text-primary" />
             <span className="font-heading font-semibold text-lg">
-              Experimento de Densidade
+              Terra Primitiva
             </span>
           </div>
           
@@ -35,10 +35,10 @@ export default function Footer() {
             <div>
               <h3 className="font-heading font-semibold mb-3">Recursos Adicionais</h3>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Manual completo do experimento</li>
-                <li>• Vídeos demonstrativos</li>
-                <li>• Referências científicas</li>
-                <li>• Materiais para download</li>
+                <li>• Experimento de Miller-Urey explicado</li>
+                <li>• História da Terra primitiva</li>
+                <li>• Artigos científicos sobre origem da vida</li>
+                <li>• Cronologia geológica da Terra</li>
               </ul>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Footer() {
 
         <div className="border-t border-border mt-8 pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Experimento de Densidade. Desenvolvido para fins educacionais.
+            © 2024 Terra Primitiva. Desenvolvido para fins educacionais.
           </p>
         </div>
       </div>

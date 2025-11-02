@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Beaker } from 'lucide-react';
+import { Globe } from 'lucide-react';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,9 +37,9 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <Beaker className="w-7 h-7 text-primary" />
+          <Globe className="w-7 h-7 text-primary" />
           <h1 className="font-heading font-bold text-xl md:text-2xl">
-            Experimento de Densidade
+            Terra Primitiva
           </h1>
         </div>
         

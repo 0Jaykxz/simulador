@@ -13,45 +13,56 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: 'O que é densidade?',
+    question: 'Qual gás estava AUSENTE na atmosfera da Terra primitiva?',
     options: [
-      'A cor de um líquido',
-      'A relação entre massa e volume',
-      'A temperatura de uma substância',
-      'O peso de um objeto'
+      'Metano (CH₄)',
+      'Oxigênio livre (O₂)',
+      'Amônia (NH₃)',
+      'Vapor d\'água (H₂O)'
     ],
     correctAnswer: 1
   },
   {
     id: 2,
-    question: 'Qual líquido é mais denso?',
+    question: 'Há quantos anos atrás a Terra se formou?',
     options: [
-      'Álcool',
-      'Óleo',
-      'Água',
-      'Mel'
+      'Cerca de 1 bilhão de anos',
+      'Cerca de 2,5 bilhões de anos',
+      'Cerca de 4,5 bilhões de anos',
+      'Cerca de 10 bilhões de anos'
     ],
-    correctAnswer: 3
+    correctAnswer: 2
   },
   {
     id: 3,
-    question: 'Por que o óleo flutua na água?',
+    question: 'Qual experimento famoso demonstrou a formação de moléculas orgânicas na Terra primitiva?',
     options: [
-      'Porque é mais leve',
-      'Porque tem menos densidade que a água',
-      'Porque é transparente',
-      'Porque é líquido'
+      'Experimento de Pasteur',
+      'Experimento de Miller-Urey',
+      'Experimento de Mendel',
+      'Experimento de Newton'
     ],
     correctAnswer: 1
   },
   {
     id: 4,
-    question: 'O que acontece se misturarmos vigorosamente os líquidos?',
+    question: 'Qual era a principal fonte de energia que formava compostos orgânicos na Terra primitiva?',
     options: [
-      'Eles permanecem misturados para sempre',
-      'As camadas desaparecem completamente',
-      'Eles eventualmente se separam novamente',
-      'Mudam de cor'
+      'Luz solar e relâmpagos',
+      'Oxigênio da atmosfera',
+      'Plantas fotossintetizantes',
+      'Fogo vulcânico'
+    ],
+    correctAnswer: 0
+  },
+  {
+    id: 5,
+    question: 'Por que a atmosfera primitiva é chamada de "redutora"?',
+    options: [
+      'Porque reduzia a temperatura',
+      'Porque tinha poucos gases',
+      'Porque não tinha oxigênio livre e favorecia reações químicas',
+      'Porque era muito fina'
     ],
     correctAnswer: 2
   }

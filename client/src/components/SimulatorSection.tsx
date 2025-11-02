@@ -1,7 +1,7 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Monitor, Play, Settings, BarChart3 } from 'lucide-react';
-import simulatorImage from '@assets/generated_images/Online_simulator_interface_preview_49b2a99b.png';
+import { Monitor, Play, Settings, Zap } from 'lucide-react';
+import simulatorImage from '@assets/generated_images/Primitive_Earth_simulator_interface_1e9961cb.png';
 
 export default function SimulatorSection() {
   const handleOpenSimulator = () => {
@@ -11,18 +11,18 @@ export default function SimulatorSection() {
   const features = [
     {
       icon: Settings,
-      title: 'Ajuste as propriedades',
-      description: 'Modifique a densidade de cada líquido e veja como as camadas mudam'
+      title: 'Ajuste a composição',
+      description: 'Modifique as concentrações de metano, amônia, hidrogênio e vapor d\'água na atmosfera simulada'
+    },
+    {
+      icon: Zap,
+      title: 'Simule descargas elétricas',
+      description: 'Ative relâmpagos virtuais e observe a formação de moléculas orgânicas em tempo real'
     },
     {
       icon: Play,
-      title: 'Simule em tempo real',
-      description: 'Adicione líquidos na ordem que desejar e observe o resultado instantaneamente'
-    },
-    {
-      icon: BarChart3,
-      title: 'Visualize os dados',
-      description: 'Acompanhe gráficos com valores de densidade e massa de cada camada'
+      title: 'Controle o tempo',
+      description: 'Acelere ou desacelere a simulação para observar processos que levaram milhões de anos'
     }
   ];
 
@@ -37,7 +37,7 @@ export default function SimulatorSection() {
           Simulador Online
         </h2>
         <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
-          Explore o experimento virtualmente! Teste diferentes combinações de líquidos e entenda melhor os conceitos de densidade.
+          Recrie a atmosfera da Terra primitiva virtualmente! Experimente diferentes condições e observe a química da origem da vida.
         </p>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
@@ -66,10 +66,10 @@ export default function SimulatorSection() {
                 <div>
                   <h4 className="font-heading font-semibold mb-2">Como usar o simulador</h4>
                   <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>1. Selecione os líquidos que deseja adicionar</li>
-                    <li>2. Ajuste a densidade de cada um usando os controles</li>
-                    <li>3. Clique em "Adicionar" para ver a camada se formar</li>
-                    <li>4. Experimente diferentes combinações e ordens</li>
+                    <li>1. Selecione a composição dos gases atmosféricos</li>
+                    <li>2. Ajuste a intensidade e frequência dos relâmpagos</li>
+                    <li>3. Inicie a simulação e observe as reações químicas</li>
+                    <li>4. Analise os compostos orgânicos formados</li>
                   </ul>
                 </div>
               </div>
