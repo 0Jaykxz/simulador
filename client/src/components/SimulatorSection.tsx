@@ -5,7 +5,8 @@ import simulatorImage from '@assets/generated_images/Primitive_Earth_simulator_i
 
 export default function SimulatorSection() {
   const handleOpenSimulator = () => {
-    window.open("https://lifeoriginsim.onrender.com");
+    window.open("https://lifeoriginsim.onrender.com/", "_blank");
+;
   };
 
   const features = [
@@ -59,6 +60,21 @@ export default function SimulatorSection() {
               ))}
             </div>
 
+            <Card className="p-6 bg-primary/5 border-primary/20">
+              <div className="flex items-start gap-3 mb-4">
+                <Monitor className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <div>
+                  <h4 className="font-heading font-semibold mb-2">Como usar o simulador</h4>
+                  <ul className="text-sm text-muted-foreground space-y-2">
+                    <li>1. Pressione o botão de redirecionamento</li>
+                    <li>2. Aguarde o carregamento da página</li>
+                    <li>3. Observe as informações exibidas</li>
+                    <li>4. Avance através das eras.</li>
+                  </ul>
+                </div>
+              </div>
+            </Card>
+          </div>
 
           <div>
             <Card className="overflow-hidden">
