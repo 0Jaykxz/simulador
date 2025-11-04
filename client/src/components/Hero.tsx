@@ -30,7 +30,7 @@ export default function Hero() {
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <h1 className="font-heading font-bold text-5xl md:text-6xl lg:text-7xl text-white mb-6">
-          Atmosfera da Terra Primitiva
+          Terra Primitiva
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
           Viaje 4 bilhões de anos no passado e descubra como era a atmosfera do nosso planeta antes da vida
@@ -41,7 +41,7 @@ export default function Hero() {
           className="text-lg px-8 bg-primary/90 backdrop-blur-sm hover:bg-primary border border-primary-border"
           data-testid="button-explore-experiment"
         >
-          Explorar o Experimento
+          Recriar condições
         </Button>
       </div>
 

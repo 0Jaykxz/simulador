@@ -34,7 +34,7 @@ export default function ExperimentSection() {
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="font-heading font-bold text-3xl md:text-4xl text-center mb-4">
-          Como Funciona o Experimento
+          Como recriar condições da Terra Primitiva
         </h2>
         <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
           Recriando as condições da Terra há 4 bilhões de anos, quando a atmosfera era tóxica e não havia oxigênio livre.

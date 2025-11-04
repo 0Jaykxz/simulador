@@ -49,7 +49,7 @@ export default function Footer() {
 
         <div className="border-t border-border mt-8 pt-6 text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Terra Primitiva. Desenvolvido para fins educacionais.
+            © 2025 Terra Primitiva. Desenvolvido para fins educacionais.
           </p>
         </div>
       </div>
