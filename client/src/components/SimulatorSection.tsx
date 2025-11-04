@@ -11,18 +11,18 @@ export default function SimulatorSection() {
   const features = [
     {
       icon: Settings,
-      title: 'Ajuste a composição',
-      description: 'Modifique as concentrações de metano, amônia, hidrogênio e vapor d\'água na atmosfera simulada'
+      title: 'Exploração',
+      description: 'Explore o ambiente onde a vida começou, com uma atmosfera rica em gases como metano, amônia e dióxido de carbono'
     },
     {
       icon: Zap,
-      title: 'Simule descargas elétricas',
-      description: 'Ative relâmpagos virtuais e observe a formação de moléculas orgânicas em tempo real'
+      title: 'Simule etapas',
+      description: 'Observe as etapas da formação de compostos orgânicos a partir de reações químicas provocadas por relâmpagos'
     },
     {
       icon: Play,
-      title: 'Controle o tempo',
-      description: 'Acelere ou desacelere a simulação para observar processos que levaram milhões de anos'
+      title: 'Compatibilidade',
+      description: 'Rode o simulador em qualquer dispositivo com suporte a navegadores modernos'
     }
   ];
 
@@ -37,8 +37,7 @@ export default function SimulatorSection() {
           Simulador Online
         </h2>
         <p className="text-center text-muted-foreground text-lg mb-12 max-w-3xl mx-auto">
-          Recrie a atmosfera da Terra primitiva virtualmente! Experimente diferentes condições e observe a química da origem da vida.
-        </p>
+          Nosso simulador interativo permite que você explore a atmosfera da Terra primitiva e observe as reações químicas que levaram à formação de compostos orgânicos. Atualmente, estamos completando o projeto para que sua experiência se torne ainda mais imersiva.</p>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           <div>
