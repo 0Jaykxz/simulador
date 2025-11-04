@@ -5,7 +5,7 @@ import simulatorImage from '@assets/generated_images/Primitive_Earth_simulator_i
 
 export default function SimulatorSection() {
   const handleOpenSimulator = () => {
-    console.log('Abrindo simulador...');
+    window.open("https://lifeoriginsim.onrender.com");
   };
 
   const features = [
@@ -59,21 +59,6 @@ export default function SimulatorSection() {
               ))}
             </div>
 
-            <Card className="p-6 bg-primary/5 border-primary/20">
-              <div className="flex items-start gap-3 mb-4">
-                <Monitor className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="font-heading font-semibold mb-2">Como usar o simulador</h4>
-                  <ul className="text-sm text-muted-foreground space-y-2">
-                    <li>1. Selecione a composição dos gases atmosféricos</li>
-                    <li>2. Ajuste a intensidade e frequência dos relâmpagos</li>
-                    <li>3. Inicie a simulação e observe as reações químicas</li>
-                    <li>4. Analise os compostos orgânicos formados</li>
-                  </ul>
-                </div>
-              </div>
-            </Card>
-          </div>
 
           <div>
             <Card className="overflow-hidden">
