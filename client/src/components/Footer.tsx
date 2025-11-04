@@ -1,8 +1,8 @@
-import { Globe } from 'lucide-react';
+import { Globe } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer 
+    <footer
       className="border-t border-border py-12 px-6"
       data-testid="footer-main"
     >
@@ -14,7 +14,7 @@ export default function Footer() {
               Terra Primitiva
             </span>
           </div>
-          
+
           <div className="text-center md:text-right">
             <p className="text-sm text-muted-foreground">
               Feira de Ciências 2024
@@ -27,13 +27,16 @@ export default function Footer() {
             <div>
               <h3 className="font-heading font-semibold mb-3">Equipe</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Desenvolvido por estudantes do 9º ano como parte do projeto de Ciências.
-                Orientação: Prof. Maria Santos
+                Desenvolvido por estudantes do 1º INFO para a feira de ciências
+                2025. <br />
+                Jaykson, Leticia, Eduarda, Maysa e Guilherme.
               </p>
             </div>
-            
+
             <div>
-              <h3 className="font-heading font-semibold mb-3">Recursos Adicionais</h3>
+              <h3 className="font-heading font-semibold mb-3">
+                Recursos Adicionais
+              </h3>
               <ul className="text-sm text-muted-foreground space-y-2">
                 <li>• Experimento de Miller-Urey explicado</li>
                 <li>• História da Terra primitiva</li>
